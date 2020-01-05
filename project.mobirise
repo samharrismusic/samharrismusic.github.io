@@ -1,0 +1,380 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.11.1",
+    "versionPublish": "4.11.5",
+    "name": "Sam",
+    "theme": {
+      "name": "default",
+      "title": "Mobirise",
+      "styling": {}
+    },
+    "favicon": "",
+    "google-analytics": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png",
+    "uniqCompNum": 4,
+    "siteFonts": []
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Sam Harris: Official Web Site",
+        "meta_descr": "Sam Harris’ diversified career has run the gamut from Broadway and television actor to platinum selling recording artist to writer, director, producer, and author. \n\nTheatre: Broadway - The Life (Tony, Outer Critics Circle, Drama Desk nominations, Drama League Award), The Producers and Grease (Drama League Award, Drama Desk nomination). Off-Broadway/Regional includes Joseph…, Hair, Pippin, Jesus Christ Superstar, Cabaret, The Jazz Singer and The First Wives Club. Writing: Hard Copy, Revival, Hurry! Hurry! Hollywood!, SAM., New York’s Finest, Liza’s Back at the Palace.\n\nTelevision includes Star Search (premiere winner), The Class (series regular), Rules of Engagement (recurring). Numerous specials and talk shows from Oprah to Fallon. Writing/Producing: Down To Earth (TBS sitcom), Michael Jackson’s 30th Year Anniversary (CBS), Liza’s Back at the Palace (co-written, Broadway)  Love Letter to New York (PBS.)\n \nSam’s best selling book, HAM: Slices of a Life (Simon & Schuster) is the basis for HAM: A Musical which ran Off-Broadway and most recently in Los Angeles to critical acclaim. ",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#475577"
+            },
+            ".mbr-navbar__section": {
+              "background": "#475577"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#27aae0"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#475577",
+            "hamburgerColor": "#27aae0"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bio-3774x2516-86.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Don't Yuk My Yum VIDEO",
+              "link": "https://facebook.com/SamFans",
+              "title": "Don't Yuk My Yum VIDEO",
+              "linkInNewWindow": true
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://SamHamShow.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\" target=\"_blank\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" target=\"_blank\">DISCOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_name": "slider",
+          "_styles": {
+            "H1": {
+              "font-family": "'Arimo', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
+              "font-size": "22px"
+            },
+            ".btn": {
+              "font-family": "'Arimo', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "showBullets": true,
+            "bgColor": "#000000",
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/samfront-1900x1100-9.jpg",
+                "contentAlign": "left",
+                "overlay": false,
+                "showTitle": true,
+                "title": "<a href=\"biography.html\" class=\"text-white\">SAM HARRIS</a>",
+                "showText": false,
+                "text": "",
+                "showButtons": false,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://samharris.com\" data-toolbar=\"-mbrBtnMove\">biography</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/sambio-1900x1100-38.jpg",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "DISCOGRAPHY",
+                "showText": false,
+                "text": "",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD MUSIC</a>"
+              }
+            ]
+          },
+          "_anchor": "slider-10",
+          "articleLayout": false
+        },
+        {
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-9",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f0f0f0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW SAM",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/samharris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/samfans\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/samharris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/samharrismusic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      "
+        },
+        {
+          "twitterName": "samharris",
+          "twitterUrlValue": "https://twitter.com/samharris",
+          "twitterColor": "light",
+          "alias": "twitter-feed",
+          "_name": "twitter-feed-block",
+          "_anchor": "twitter-feed-block-12",
+          "_params": {
+            "twitterUrl": "https://twitter.com/samharris",
+            "twitterWidth": 520,
+            "twitterHeight": "560",
+            "darkTheme": false,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "innerText": "<a class=\"twitter-timeline\" href=\"https://twitter.com/samharris\" data-widget-id=\"670227744614187012\" data-screen-name=\"samharris\" data-theme=\"light\" width=\"520\" height=\"560\">Tweets by @samharris</a>"
+        },
+        {
+          "_name": "contacts3",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "12px"
+            },
+            "UL": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "contacts3-11",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#475577",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "text1": "INFORMATION &amp; CONTACT<br><br>For booking, please contact:<br>Craig Dorfman<br>Frontline Management<br>8265 Sunset Blvd # 209,<br>West Hollywood, CA 90046<br>(213) 221-7945<br>",
+          "text2": "<p class=\"mbr-contacts__text\"><br></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"biography.html\" class=\"text-info\">Biography</a><a href=\"http://SamHarris.com\" target=\"_blank\" class=\"text-info\"></a></b></li><li><b><a href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" class=\"text-info\">Discography</a></b></li></ul><p><b><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">Buy </a><i><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">HAM</a></i><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">, The Book!</a><br><br></b>The email contact form is for BUSINESS ONLY.<br>Messages will NOT be forwarded to Sam Harris.<br><b>Talk to Sam at: &nbsp;<a href=\"http://facebook.com/SamFans\" target=\"_blank\" class=\"text-info\" style=\"background-color: rgb(71, 85, 119);\">facebook.com/SamFans</a></b></p>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "samharrisblog.com@gmail.com",
+            "alerts": {
+              "success": "Your message has been sent to SamHarris.com\n\nIf your message was booking or business related, or other management related issues and questions, someone will get back to you ASAP.\n\nIf your message was for Sam Harris, please note that Sam does not get messages via this form, nor will they will be forwarded, as noted.\n\nHowever, Sam would LOVE to hear from you, so send him a message or post on:\nfacebook.com/SamFans\n\nThank you!\nWebmaster\nSamHarris.com "
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "BUSINESS ONLY. Messages will NOT be forwarded to Sam Harris.  Talk to Sam at:  facebook.com/SamFans"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-default\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SEND EMAIL</a>"
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-11",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#475577",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "(c) 2017, Sam Harris, Funky Pants Productions"
+        }
+      ]
+    },
+    "biography.html": {
+      "settings": {
+        "title": "Sam Harris: Biography",
+        "meta_descr": "Sam Harris Biography Broadway Star Search Winner Ham A Musical Memoir SInger Actor Author Performer",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-23",
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": true,
+            "inverse": false,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/bio-3774x2516-86.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "headerAlign": "left",
+          "title": "BIOGRAPHY",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Sam Harris’ diversified career has run the gamut from singer and songwriter to actor on Broadway, film and television to writer, director, producer and author.&nbsp;<br></p><p>His now legendary appearances on the premiere season of STAR SEARCH gave him a national platform and his After pulling a weekly audience of more than 25 million viewers a week on STAR SEARCH in it's premier season, Sam and his powerhouse pop, gospel and theater influenced vocals have never looked back.&nbsp;</p><p>He is a multi-platinum recording artist with 9 studio CDs to his credit including SAM HARRIS and SAM-I-AM (both top 40 hits), STANDARD TIME and DIFFERENT STAGES (produced and conducted by the legendary Peter Matz, and which have been listed on numerous “Top 100 Records of All Time” lists.)&nbsp;</p><p>Sam has toured extensively in concert and has played to sold-out audiences at major venues including New York’s Carnegie Hall, Los Angeles’ Universal Amphitheatre, London’s West End. He has performed with numerous symphonies including The Boston Pops and participated in Cyndi Lauper’s TRUE COLORS tour. Sam has appeared at The White House, on numerous television specials and live productions, and has been a guest artist on virtually every talk show from Leno to Fallon; his favorite in an historic time, when he performed a stirring “You’ll Never Walk Alone” on THE OPRAH WINFREY SHOW in the week following September 11th. Sam is listed as one of Rolling Stone Magazine’s “100 greatest singers of all time.“&nbsp;</p><p>On Broadway, Sam received a Tony, Outer Critic’s Circle and Drama Desk nominations for his work in Cy Coleman’s THE LIFE as well as a Drama League Award and Drama Desk nomination for his role in Tommy Tune’s GREASE and appeared on Broadway in  Mel Brooks’, THE PRODUCERS.  Sam has also starred in JESUS CHRIST SUPERSTAR, CABARET, JOSEPH…, HAIR, PIPPIN, THE JAZZ SINGER, THE FIRST WIVES CLUB and the smash hit, one man show SAM.&nbsp;</p><p>As “Perry Pearl” on the CBS sitcom, THE CLASS, Sam’s chameleonic career took a new turn as a series regular, prompting popular columnist, Liz, Smith, to call him “the comedy break breakout character of the television season.” His many television credits include, RULES OF ENGAGEMENT, CSI, MAJOR CRIMES and his own segment EXTRA called “Six Degrees of Sam.” Sam has also co-starred in the films IN THE WEEDS and ELENA UNDONE as well as several documentaries.</p><p>Behind the scenes, Sam co-wrote the TBS sit-com, DOWN TO EARTH, which ran for 4 years.  He also co-produced the television special LOVE LETTER TO NEW YORK, supervised and directed segments of MICHAEL JACKSON’S 30TH YEAR ANNIVERSARY at Madison Square Garden, wrote music for the award winning film, LITTLE MAN, and co-wrote LIZA’S AT THE PALACE, which won the 2009 Tony Award. He also created and directed the concert event, NEW YORK’S FINEST – BROADWAY’S LEADING MEN.</p><p>The success of his memoir, “HAM: Slices of a Life” has evolved into the musical play, “HAM: A Musical Memoir” which played to resounding critical success in New York and Los Angeles.&nbsp;</p><p>Sam is married to Danny Jacobsen and they are the proud fathers of Cooper Atticus Harris-Jacobsen.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
+        },
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#475577"
+            },
+            ".mbr-navbar__section": {
+              "background": "#475577"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#27aae0"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-3",
+          "_params": {
+            "logo": true,
+            "showBrand": false,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#475577",
+            "hamburgerColor": "#27aae0"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bio-3774x2516-86.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Don't Yuk My Yum VIDEO",
+              "link": "https://facebook.com/SamFans",
+              "title": "Don't Yuk My Yum VIDEO",
+              "linkInNewWindow": true
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://SamHamShow.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\"></a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\" target=\"_blank\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" target=\"_blank\">DISCOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>   <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>     <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-10",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f0f0f0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW SAM",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/samharris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/samfans\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-googleplus\" title=\"Google+\" target=\"_blank\" href=\"https://plus.google.com/u/0/+SamHarrisSinger\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-googleplus\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/SamHarris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/samharrismusic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-pinterest\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/samharrismusic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-pinterest\"></i></a>     "
+        }
+      ]
+    }
+  }
+}
