@@ -1,8 +1,8 @@
 {
   "settings": {
-    "currentPage": "biography.html",
+    "currentPage": "page2.html",
     "versionFirst": "2.11.1",
-    "versionPublish": "4.11.6",
+    "versionPublish": "4.12.3",
     "name": "Sam",
     "theme": {
       "name": "default",
@@ -14,8 +14,9 @@
     "google-analytics": "",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "uniqCompNum": 4,
-    "siteFonts": []
+    "uniqCompNum": 19,
+    "siteFonts": [],
+    "imageResize": true
   },
   "pages": {
     "index.html": {
@@ -35,13 +36,13 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#475577"
+              "background": "#28324e"
             },
             ".mbr-navbar__section": {
-              "background": "#475577"
+              "background": "#28324e"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#27aae0"
+              "color": "#fac51c"
             },
             ".mbr-brand__name a": {
               "font-size": "13px"
@@ -56,23 +57,22 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "color": "#475577",
-            "hamburgerColor": "#27aae0"
+            "color": "#28324e",
+            "hamburgerColor": "#fac51c"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/ham-slices-of-a-life-9781476733449-hr-84x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/the-substance-of-all-things-kindle-cover-final2560x1600-1400x2240.jpg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Buy HAM The Book!",
-              "link": "http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight",
-              "title": "Buy HAM The Book!",
-              "linkInNewWindow": true
+              "alt": "Sam Harris Books",
+              "link": "page2.html",
+              "title": "Sam Harris Books"
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">Buy HAM The Book!</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\" target=\"_blank\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" target=\"_blank\">DISCOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\">BUY HAM!</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>    <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
+          "brand": "<a class=\"mbr-brand__name text-warning\" data-app-btn=\"true\" href=\"page2.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NEW BOOK! The Substance Of All Things</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">SAM'S MUSIC</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">SAM'S BOOKS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>    <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -82,12 +82,20 @@
             "H1": {
               "font-family": "'Arimo', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
-              "font-size": "22px"
+              "font-size": "20px",
+              "text-align": "left"
             },
             ".btn": {
               "font-family": "'Arimo', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Arimo:400,700",
               "font-size": "15px"
+            },
+            "P": {
+              "color": "#475577",
+              "text-align": "left"
+            },
+            "B": {
+              "font-size": "20px"
             }
           },
           "_params": {
@@ -96,30 +104,44 @@
             "paddingTop": "0",
             "paddingBottom": "0",
             "showBullets": true,
-            "bgColor": "#000000",
+            "bgColor": "#28324e",
             "slides": [
               {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/samfront-1900x1100-9.jpg",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/substance-master-copy-1900x1100.jpg",
                 "contentAlign": "left",
                 "overlay": false,
-                "showTitle": true,
-                "title": "<a href=\"biography.html\" class=\"text-white\">SAM HARRIS</a>",
+                "showTitle": false,
+                "title": "Sam Harris: The Substance of All Things",
                 "showText": false,
-                "text": "",
-                "showButtons": false,
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://samharris.com\" data-toolbar=\"-mbrBtnMove\">biography</a>"
+                "text": "&nbsp;",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"https://samharris.com\" data-toolbar=\"-mbrBtnMove\">MORE INFO</a> ",
+                "overlayOpacity": "0",
+                "alt": "Sam Harris: The Substance of All Things"
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/sambio-1900x1100-38.jpg",
+                "image": "@PROJECT_PATH@/assets/images/samfront-1900x1100-9.jpg",
                 "contentAlign": "left",
+                "overlay": false,
                 "showTitle": false,
-                "title": "DISCOGRAPHY",
+                "title": "<br><br><br>",
                 "showText": false,
                 "text": "",
                 "showButtons": true,
-                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">DOWNLOAD MUSIC</a>"
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"biography.html\" data-toolbar=\"-mbrBtnMove\">BIOGRAPHY</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/sambio-1900x1100-38.jpg",
+                "contentAlign": "left",
+                "showTitle": false,
+                "title": "<br><br><br><br><br><br><br>",
+                "showText": false,
+                "text": "",
+                "showButtons": true,
+                "buttons": " <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"index.html#contacts3-11\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD MUSIC</a>"
               }
             ]
           },
@@ -136,7 +158,7 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#f0f0f0",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
@@ -145,54 +167,68 @@
           "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/samharris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/samfans\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/samharris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/samharrismusic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      "
         },
         {
-          "twitterName": "samharris",
-          "twitterUrlValue": "https://twitter.com/samharris",
-          "twitterColor": "light",
-          "alias": "twitter-feed",
-          "_name": "twitter-feed-block",
-          "_anchor": "twitter-feed-block-12",
           "_params": {
-            "twitterUrl": "https://twitter.com/samharris",
-            "twitterWidth": 520,
-            "twitterHeight": "560",
-            "darkTheme": false,
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
-            "parallax": true,
+            "token": "331439237.727bfe1.81bc543a693f4d8e85f5be67ce0622f7",
+            "showTitle": false,
+            "layoutGridRadio": false,
+            "imagesPerRowGrid": "4",
+            "rows": "1",
+            "showMoreButton": true,
+            "layoutSliderRadio": true,
+            "imagesPerRowSlider": "4",
+            "spacing": "0",
+            "fullWidth": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "bgColor": "#fafafa",
+            "bgImageRadio": false,
+            "bgImage": "@ADDONS_PATH@/instagram-feed/instagram-feed-block/assets/instagram-background.jpg",
+            "overlay": true,
+            "overlayColor": "#efefef",
+            "overlayOpacity": 0.6
           },
-          "innerText": "<a class=\"twitter-timeline\" href=\"https://twitter.com/samharris\" data-widget-id=\"670227744614187012\" data-screen-name=\"samharris\" data-theme=\"light\" width=\"520\" height=\"560\">Tweets by @samharris</a>"
+          "title": "",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-md display-4 btn-primary\" href=\"#\" data-max-id=\"2195451757229016578_331439237\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,-mbrLink\">Show more</a>",
+          "display2": "display-2",
+          "display4": "display-4",
+          "alias": "instagram-feed",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "instagram-feed-block",
+          "_anchor": "instagram-feed-block-i"
         },
         {
           "_name": "contacts3",
           "_styles": {
             "P": {
               "color": "#ffffff",
-              "font-size": "12px"
+              "font-size": "13px",
+              "text-align": "left"
             },
             "UL": {
               "color": "#ffffff"
+            },
+            "DIV": {
+              "color": "#efefef"
             }
           },
           "_anchor": "contacts3-11",
           "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "2",
+            "paddingTop": "2",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#475577",
+            "bgColor": "#28324e",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
-          "text1": "INFORMATION &amp; CONTACT<br><br>For booking, please contact:<br>Craig Dorfman<br>Frontline Management<br>8265 Sunset Blvd # 209,<br>West Hollywood, CA 90046<br>(213) 221-7945<br>",
-          "text2": "<p class=\"mbr-contacts__text\"><br></p><ul class=\"mbr-contacts__list\"><li><b><a href=\"biography.html\" class=\"text-info\">Biography</a><a href=\"http://SamHarris.com\" target=\"_blank\" class=\"text-info\"></a></b></li><li><b><a href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" class=\"text-info\">Discography</a></b></li></ul><p><b><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">Buy </a><i><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">HAM</a></i><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">, The Book!</a><br><br></b>The email contact form is for BUSINESS ONLY.<br>Messages will NOT be forwarded to Sam Harris.<br><b>Talk to Sam at: &nbsp;<a href=\"http://facebook.com/SamFans\" target=\"_blank\" class=\"text-info\" style=\"background-color: rgb(71, 85, 119);\">facebook.com/SamFans</a></b></p>",
+          "text1": "<b>INFORMATION &amp; CONTACT</b><br><br>For booking, please contact:<br>Craig Dorfman<br>Frontline Management<br>8265 Sunset Blvd # 209,<br>West Hollywood, CA 90046<br>(213) 221-7945<br><br><b><a href=\"biography.html\" class=\"text-info\">SAM HARRIS BIOGRAPHY</a></b><br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b style=\"font-size: 14px;\">MUSIC:</b><br></p><ul class=\"mbr-contacts__list\"><li><a href=\"https://amzn.to/2AlzPja\" target=\"_blank\" class=\"text-info\" style=\"font-style: italic; font-weight: bold;\">Sam Harris&nbsp;</a>(Expanded Edition) [Motown]</li><li><a href=\"https://amzn.to/2At9yPR\" target=\"_blank\" class=\"text-info\" style=\"font-style: italic; font-weight: bold;\">Sam-I-Am</a> (Expanded Edition) [Motown]</li><li><i><a href=\"https://amzn.to/3ch6OT7\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">Standard Time/Different Stages</a> </i>(Double)</li><li><a href=\"https://amzn.to/2Mbdbg4\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold; font-style: italic;\">Revival </a>&nbsp;(Bridge Over Troubled Water)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/2yQKbas\" target=\"_blank\" class=\"text-info\">Always</a> </i>(A Song For You, The Rose, If)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/3eAL8mw\" target=\"_blank\" class=\"text-info\">Free</a> </i>(I Can't Make You Love Me, Imagine)</li><li><i><a href=\"https://amzn.to/2XhBi3d\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">The Motown Lowdown</a> </i>(New Acoustic)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/3dmZUgo\" target=\"_blank\" class=\"text-info\">On This Night</a> </i>(O Holy Night, First Noel)</li><li><a href=\"https://amzn.to/2XJlghs\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold; font-style: italic;\">The Best of Christmas</a> Live! (Deluxe)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/36Mx1YI\" target=\"_blank\" class=\"text-info\">Suitcase of Memories</a> </i>(Fan Collection)</li><li><b><i><br></i></b></li><li><b>BOOKS:</b></li><li><i style=\"font-weight: bold;\"><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">HAM: Slices Of A Life</a>&nbsp;</i>(Memoir)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/2TU9788\" target=\"_blank\" class=\"text-info\">The Substance Of All Things</a>&nbsp;</i>(Fiction)</li><li><b><i><br></i></b></li></ul><p>The email contact form is for BUSINESS ONLY.<br>Messages will NOT be forwarded to Sam Harris.</p><p><b>Talk to Sam at: &nbsp;<a href=\"http://facebook.com/SamFans\" target=\"_blank\" class=\"text-info\">facebook.com/SamFans</a></b></p>",
           "form": {
             "title": "MESSAGE",
             "action": "samharrisblog.com@gmail.com",
@@ -221,7 +257,30 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-default\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SEND EMAIL</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SEND EMAIL</a>"
+        },
+        {
+          "twitterName": "samharris",
+          "twitterUrlValue": "https://twitter.com/samharris",
+          "twitterColor": "light",
+          "alias": "twitter-feed",
+          "_name": "twitter-feed-block",
+          "_anchor": "twitter-feed-block-12",
+          "_params": {
+            "twitterUrl": "https://twitter.com/samharris",
+            "twitterWidth": "520",
+            "twitterHeight": "2000",
+            "darkTheme": false,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "innerText": "<a class=\"twitter-timeline\" href=\"https://twitter.com/samharris\" data-widget-id=\"670227744614187012\" data-screen-name=\"samharris\" data-theme=\"light\" width=\"520\" height=\"2000\">Tweets by @samharris</a>"
         },
         {
           "_name": "footer1",
@@ -233,12 +292,17 @@
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#475577",
+            "bgColor": "#28324e",
             "overlay": true,
             "overlayColor": "#444444",
             "overlayOpacity": 0.8
           },
-          "text": "(c) 2020, Sam Harris, Funky Pants Productions"
+          "text": "(c) 2020, Sam Harris, Funky Pants Productions",
+          "_styles": {
+            "P": {
+              "color": "#c1c1c1"
+            }
+          }
         }
       ]
     },
@@ -253,7 +317,7 @@
           "_inherit": "msg-box5",
           "_styles": {
             ".mbr-header__text": {
-              "color": "#ffffff"
+              "color": "#fac51c"
             },
             ".mbr-header__subtext": {
               "color": "#ffffff"
@@ -307,8 +371,8 @@
           "headerAlign": "left",
           "title": "BIOGRAPHY",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Sam Harris’ diversified career has run the gamut from singer and songwriter to actor on Broadway, film and television to writer, director, producer and author.&nbsp;<br></p><p>His now legendary appearances on the premiere season of STAR SEARCH gave him a national platform and his After pulling a weekly audience of more than 25 million viewers a week on STAR SEARCH in it's premier season, Sam and his powerhouse pop, gospel and theater influenced vocals have never looked back.&nbsp;</p><p>He is a multi-platinum recording artist with <a href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" target=\"_blank\" class=\"text-info\">9 studio CDs</a> to his credit including SAM HARRIS and SAM-I-AM (both top 40 hits), STANDARD TIME and DIFFERENT STAGES (produced and conducted by the legendary Peter Matz, and which have been listed on numerous “Top 100 Records of All Time” lists.)&nbsp;</p><p>Sam has toured extensively in concert and has played to sold-out audiences at major venues including New York’s Carnegie Hall, Los Angeles’ Universal Amphitheatre, London’s West End. He has performed with numerous symphonies including The Boston Pops and participated in Cyndi Lauper’s TRUE COLORS tour. Sam has appeared at The White House, on numerous television specials and live productions, and has been a guest artist on virtually every talk show from Leno to Fallon; his favorite in an historic time, when he performed a stirring “You’ll Never Walk Alone” on THE OPRAH WINFREY SHOW in the week following September 11th. Sam is listed as one of Rolling Stone Magazine’s “100 greatest singers of all time.“&nbsp;</p><p>On Broadway, Sam received a Tony, Outer Critic’s Circle and Drama Desk nominations for his work in Cy Coleman’s THE LIFE as well as a Drama League Award and Drama Desk nomination for his role in Tommy Tune’s GREASE and appeared on Broadway in  Mel Brooks’, THE PRODUCERS.  Sam has also starred in JESUS CHRIST SUPERSTAR, CABARET, JOSEPH…, HAIR, PIPPIN, THE JAZZ SINGER, THE FIRST WIVES CLUB and the smash hit, one man show SAM.&nbsp;</p><p>As “Perry Pearl” on the CBS sitcom, <a href=\"http://www.amazon.com/exec/obidos/ASIN/B000NY6G60/thelimelight\" target=\"_blank\" class=\"text-info\">THE CLASS</a>, Sam’s chameleonic career took a new turn as a series regular, prompting popular columnist, Liz, Smith, to call him “the comedy break breakout character of the television season.” His many television credits include, RULES OF ENGAGEMENT, CSI, MAJOR CRIMES and his own segment EXTRA called “Six Degrees of Sam.” Sam has also co-starred in the films <a href=\"http://www.amazon.com/exec/obidos/ASIN/B0001WTWDS/thelimelight\" target=\"_blank\" class=\"text-info\">IN THE WEEDS</a> and <a href=\"http://www.amazon.com/exec/obidos/ASIN/B00DM11LV6/thelimelight\" target=\"_blank\" class=\"text-info\">ELENA UNDONE</a> as well as several documentaries.</p><p>Behind the scenes, Sam co-wrote the TBS sit-com, DOWN TO EARTH, which ran for 4 years.  He also co-produced the television special LOVE LETTER TO NEW YORK, supervised and directed segments of MICHAEL JACKSON’S 30TH YEAR ANNIVERSARY at Madison Square Garden, wrote music for the award winning film, <a href=\"http://www.amazon.com/exec/obidos/ASIN/B004QM7Y7U/thelimelight\" target=\"_blank\" class=\"text-info\">LITTLE MAN</a>, and co-wrote LIZA’S AT THE PALACE, which won the 2009 Tony Award. He also created and directed the concert event, NEW YORK’S FINEST – BROADWAY’S LEADING MEN.</p><p>The success of his memoir, “<a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">HAM: Slices of a Life</a>” has evolved into the musical play, “HAM: A Musical Memoir” which played to resounding critical success in New York and Los Angeles.&nbsp;</p><p>Sam is married to Danny Jacobsen and they are the proud fathers of Cooper Atticus Harris-Jacobsen.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
+          "text": "<p>Sam Harris’ diversified career has run the gamut from singer and songwriter to actor on Broadway, film and television to writer, director, producer and author.</p><p>His now legendary appearances on the premiere season of STAR SEARCH gave him a national platform and his after pulling a weekly audience of more than 25 million viewers a week. Sam and his powerhouse pop, gospel and theater influenced vocals have never looked back.</p><p>Rolling Stone Magazine listed him as “One of the top 100 singers of all time.”</p><p>Sam is a multi-platinum recording artist with <a href=\"index.html#contacts3-11\" class=\"text-info\">nine studio albums</a> to his credit. His Motown albums are \"<a href=\"https://amzn.to/2AlzPja\" target=\"_blank\" class=\"text-info\">Sam Harris</a>\" and the follow-up \"<a href=\"https://amzn.to/2At9yPR\" target=\"_blank\" class=\"text-info\">Sam-I-Am</a>.\" The records, \"<a href=\"https://amzn.to/3ch6OT7\" target=\"_blank\" class=\"text-info\">Standard Time</a>,\" and \"<a href=\"https://amzn.to/3ch6OT7\" target=\"_blank\" class=\"text-info\">Different Stages</a>\" (produced and conducted by the legendary Peter Matz), have been listed on numerous \"Top 100 Records of All Time\" lists. Other albums include \"<a href=\"https://amzn.to/2Mbdbg4\" target=\"_blank\" class=\"text-info\">Revival</a>\", \"<a href=\"https://amzn.to/3dmZUgo\" target=\"_blank\" class=\"text-info\">On This Night</a>\", \"<a href=\"https://amzn.to/2yQKbas\" target=\"_blank\" class=\"text-info\">Always</a>\", \"<a href=\"https://amzn.to/2XJlghs\" target=\"_blank\" class=\"text-info\">Sam Harris Live! - The Best of Christmas</a>,\" and “<a href=\"https://amzn.to/3eAL8mw\" target=\"_blank\" class=\"text-info\">Free</a>,” which included the song, \"Change Is On The Way,\" which was written for and utilized by the Barack Obama Campaign. He also co-wrote the song “<a href=\"https://amzn.to/2TRBfZu\" target=\"_blank\" class=\"text-info\">My Reclamation</a>,” which was penned in response to Proposition 8, and demanded equal LGBT marriage rights. After so many recordings, we posted an online poll where fans chose their favorite songs, and the song titles with the most votes created the collection \"<a href=\"https://amzn.to/36Mx1YI\" target=\"_blank\" class=\"text-info\">Suitcase of Memories</a>\". As well as an EP of new acoustic covers of songs selected from his first two Motown albums called \"<a href=\"https://amzn.to/2XhBi3d\" target=\"_blank\" class=\"text-info\">The Motown Lowdown</a>\". He can also be heard on <a href=\"https://www.amazon.com/Sam-Harris/e/B000APAUUA/digital?&amp;_encoding=UTF8&amp;tag=thelimelight&amp;linkCode=ur2&amp;linkId=8b5e5d105da46eb55c84bc8a85efdc4f&amp;camp=1789&amp;creative=9325\" target=\"_blank\" class=\"text-info\">numerous concert, guest artist, and cast recordings</a>.</p><p>Sam has toured extensively in concert and has played to sold-out audiences at major venues including New York’s Carnegie Hall, Los Angeles’ Universal Amphitheatre, London’s West End. He has performed with numerous symphonies including The Boston Pops and participated in Cyndi Lauper’s TRUE COLORS tour. Sam has appeared at The White House, on numerous television specials and live productions, and has been a guest artist on virtually every talk show from Leno to Fallon; his favorite in an historic time, when he performed a stirring “You’ll Never Walk Alone” on THE OPRAH WINFREY SHOW in the week following September 11th.</p><p>On Broadway, Sam received a Tony, Outer Critic’s Circle and Drama Desk nominations for his work in Cy Coleman’s THE LIFE as well as a Drama League Award and Drama Desk nomination for his role in Tommy Tune’s GREASE and appeared on Broadway in Mel Brooks’, THE PRODUCERS. Sam has also starred in JESUS CHRIST SUPERSTAR, CABARET, JOSEPH AND THE AMAZING TECHNICOLOR DREAMCOAT, HAIR, PIPPIN, THE JAZZ SINGER, THE FIRST WIVES CLUB and the smash hit, one man shows “HARD COPY,” “DIFFERENT HATS” AND “SAM.” </p><p>As “Perry Pearl” on the CBS sitcom, <a href=\"http://www.amazon.com/exec/obidos/ASIN/B000NY6G60/thelimelight\" target=\"_blank\" class=\"text-info\">THE CLASS</a>, Sam’s chameleonic career took a new turn as a series regular, prompting popular columnist, Liz, Smith, to call him “the comedy break breakout character of the television season.” He has guest-starred on numerous television series and was given his own segment on EXTRA called “Six Degrees of Sam.” Sam has also starred in several films… none of which you would know….  as well as several documentaries, which you might.</p><p>Behind the scenes, Sam co-wrote the TBS sit-com, DOWN TO EARTH, which ran for 4 years, and the Los Angeles produced musical \"Hurry! Hurry! Hollywood!\" (both with Bruce H. Newberg.) He also co-produced the television special LOVE LETTER TO NEW YORK, supervised and directed segments of MICHAEL JACKSON’S 30TH YEAR ANNIVERSARY at Madison Square Garden, wrote music for the award-winning film, <a href=\"http://www.amazon.com/exec/obidos/ASIN/B004QM7Y7U/thelimelight\" target=\"_blank\" class=\"text-info\">LITTLE MAN</a>, and co-wrote LIZA’S AT THE PALACE, which won the 2009 Tony Award. He also created and directed the concert event, NEW YORK’S FINEST – BROADWAY’S LEADING MEN, to critical acclaim, and is the co-producer of THE STAY PROUD PROJECT television series.</p><p>His memoir, “<a href=\"page2.html\" class=\"text-info\">HAM: Slices of a Life</a>” (Simon &amp; Schuster) received raves across the critical board and evolved into the musical play, “HAM: A Musical Memoir” which played to resounding success in New York and Los Angeles, winning multiple awards, and was then filmed for television.</p><p>Sam is currently writing and starring the upcoming television series, “The Astounding Fall and Rise of Lydia Feldman.”</p><p>His newest book, this time literary fiction, entitled “<a href=\"page2.html\" class=\"text-info\">The Substance of All Things</a>” will be released on July 1, 2020.</p><p>Sam is married to businessman, Danny Jacobsen, and they are the proud fathers of Cooper Atticus Harris-Jacobsen.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" href=\"index.html\" data-toolbar=\"-mbrBtnMove\">HOME</a>"
         },
         {
           "_inherit": "menu",
@@ -317,13 +381,13 @@
               "font-size": "16px"
             },
             "&.mbr-navbar--stuck .mbr-navbar__section": {
-              "background": "#475577"
+              "background": "#28324e"
             },
             ".mbr-navbar__section": {
-              "background": "#475577"
+              "background": "#28324e"
             },
             ".mbr-navbar__hamburger": {
-              "color": "#27aae0"
+              "color": "#fac51c"
             },
             ".mbr-brand__name a": {
               "font-size": "13px"
@@ -338,23 +402,23 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "color": "#475577",
-            "hamburgerColor": "#27aae0"
+            "color": "#28324e",
+            "hamburgerColor": "#fac51c"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/ham-slices-of-a-life-9781476733449-hr-84x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/the-substance-of-all-things-kindle-cover-final2560x1600-1400x2240.jpg",
               "class": "mbr-navbar__brand-img mbr-brand__img",
               "height": 128,
-              "alt": "Buy HAM The Book!",
-              "link": "http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight",
-              "title": "Buy HAM The Book!",
+              "alt": "Sam Harris Books",
+              "link": "page2.html",
+              "title": "Sam Harris Books",
               "linkInNewWindow": true
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">Buy HAM The Book!</a>",
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\" target=\"_blank\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.amazon.com/gp/search?ie=UTF8&amp;camp=1789&amp;creative=9325&amp;index=digital-music&amp;keywords=Sam%20Harris&amp;linkCode=ur2&amp;tag=thelimelight&amp;linkId=DKNYR2MDXCNU7DOC\" target=\"_blank\">DISCOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\">BUY HAM!</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>    <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
+          "brand": "<a class=\"mbr-brand__name text-warning\" data-app-btn=\"true\" href=\"page2.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NEW BOOK! The Substance Of All Things</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">SAM'S MUSIC</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">SAM'S BOOKS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>    <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
           "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>"
         },
         {
@@ -374,6 +438,417 @@
           },
           "text": "FOLLOW SAM",
           "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/samharris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/samfans\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/SamHarris\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/samharrismusic\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>      "
+        }
+      ]
+    },
+    "page2.html": {
+      "settings": {
+        "meta_descr": "Sam Harris Books:  The Substance of All Things.  Ham: Slices of a life. Essays and Stories.",
+        "title": "Sam Harris: Books",
+        "order": 1
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#28324e"
+            },
+            ".mbr-navbar__section": {
+              "background": "#28324e"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#fac51c"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "13px"
+            }
+          },
+          "_name": "ext.menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "color": "#28324e",
+            "hamburgerColor": "#fac51c"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/the-substance-of-all-things-kindle-cover-final2560x1600-1400x2240.jpg",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Sam Harris Books",
+              "link": "page2.html",
+              "title": "Sam Harris Books"
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-warning\" data-app-btn=\"true\" href=\"page2.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">NEW BOOK! The Substance Of All Things</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"biography.html\">BIOGRAPHY</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">SAM'S MUSIC</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"page2.html\">SAM'S BOOKS</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://facebook.com/samfans\" target=\"_blank\">FACEBOOK</a></li>    <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://twitter.com/SamHarris\" target=\"_blank\">TWITTER</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://instagram.com/SamHarrisMusic\" target=\"_blank\">INSTAGRAM</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamTube.com\" target=\"_blank\">YOUTUBE</a></li>      <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#contacts3-11\">CONTACT</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://SamHarris.com\">HOME</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"https://mobirise.com\">DOWNLOAD</a></li>",
+          "_anchor": "ext_menu-4"
+        },
+        {
+          "_name": "footer1",
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "(c) 2020, Sam Harris, Funky Pants Productions",
+          "_anchor": "footer1-6",
+          "_styles": {
+            "P": {
+              "color": "#c1c1c1"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showText": false,
+            "outside": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/the-substance-of-all-things-kindle-cover-final2560x1600-1400x2240.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "https://amzn.to/2TU9788",
+              "alt": "Sam Harris Book: The Substance of All Things",
+              "title": "Sam Harris Book: The Substance of All Things"
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-8"
+        },
+        {
+          "_inherit": "msg-box1",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#28324e"
+            },
+            ".mbr-article": {
+              "color": "#28324e"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "The Substance of All Things",
+          "text": "<i>A Novel by Sam Harris</i><br><br>When Theo Dalton is six years old, his hands are irreparably damaged in a horrific car accident that takes his mother’s life. Six years later, during the sweltering summer of 1968 in rural Oklahoma, Theo meets Frank, a Native American outcast, and learns that he has the ability to heal through his disfigured hands.<br><br>As he explores the extraordinary, Theo desperately attempts to remain an ordinary boy. But when word of his gift spreads, Theo is shunned by the church for doing “the devil’s work.” He is immediately swept away by his Auntie Li, and into a world which ultimately threatens his life as he saves others’. <br><br>Told from Theo’s perspective some fifty years later, it is through his work as a therapist with a broken woman that he musters the courage to relive the summer that haunts him.<br><br>The Substance of All Things is the gripping, heart-wrenching, and often humorous tale of mentors and mothers and fathers, love and redemption, prophets and charlatans, miracles and faith.<br>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://amzn.to/2TU9788\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK TO ORDER NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box2",
+          "_anchor": "msg-box2-d"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#28324e"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center"
+            },
+            ".mbr-article": {
+              "color": "#28324e"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "1",
+            "paddingBottom": "4",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/232732053011202-1-2000x1027.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": false,
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<span style=\"font-weight: normal;\">From</span><i style=\"font-weight: normal;\"> The Substance of All Things...</i>",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p><i><b>Suddenly, I felt a twitch in the palm of my left hand. Just the slightest tingle, a prickling really, so that I couldn’t quite discern if the feeling was painful or stimulating—like when water is so hot on the skin that it might be cold, the distinction cannot be made. Then my right hand twitched, sparkling to a tickle that felt like a fortune-teller following the lines of my destiny with a fingernail. The current splayed to my fingers, tiny jolts of something—something charged, even voltaic. But there was something more—a feeling inside of me that couldn’t be located in my physical body, as if a door which had always existed but had always been locked suddenly opened, slowly, to a secret place, and whatever was within engulfed me like a color I’d never seen; a feeling almost too large for my body, and my knees buckled at its enormity, but I would not fall. I knew that something beyond myself was happening like a dream and I dared not peek for fear that it would end.&nbsp;</b></i><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-success\" href=\"https://amzn.to/2TU9788\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK TO ORDER NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-c"
+        },
+        {
+          "_params": {
+            "showText": false,
+            "outside": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ham-book-1400x2130.jpg",
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "link": "http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight",
+              "alt": "Sam Harris | Ham: Slices of a Life: Essays and Stories",
+              "title": "Sam Harris | Ham: Slices of a Life: Essays and Stories"
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            }
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image2",
+          "_anchor": "image2-a"
+        },
+        {
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "color": "#28324e"
+            },
+            ".mbr-article": {
+              "color": "#28324e"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "HAM<br>Slices of a Life: Essays &amp; Stories",
+          "text": "<i>Non-fiction by Sam Harris</i><br><br>In a collection of personal essays that are “both rip-roaringly funny and sentimental, drawing natural (and justified) comparisons to David Sedaris and David Rakoff” (Esquire), longtime recording artist and actor Sam Harris recounts stories of friendship, love, celebrity, and growing up and getting sober.<br><br>In sixteen brilliantly observed true stories, Sam Harris emerges as a natural humorist in league with David Sedaris, Chelsea Handler, Carrie Fisher, and Steve Martin, but with a voice uniquely his own. Praised by the Chicago Sun-Times for his “manic, witty commentary,” and with a storytelling talent The New York Times calls “New Yorker– worthy,” he puts a comedic spin on full-disclosure episodes from his own colorful life. In “I Feel, You Feel” he opens for Aretha Franklin during a blizzard. “Promises” is a front-row account of Liza Minnelli’s infamous wedding to “the man whose name shall go unmentioned.” In “The Zoo Story” Harris desperately searches for a common bond with his rough-and-tumble four-year-old son.<br><br>What better place to find painfully funny material than in growing up gay, gifted, and ambitious in the heart of the Bible belt? And that’s just the first cut: From partying to parenting, from Sunday school to getting sober, these slices of Ham will have you laughing and wiping away salty tears in equal measure with their universal and down-to-earth appeal. After all, there’s a little ham in all of us.<br><br>ham (noun) [hæm]<br>1. the hind leg of a hog, salted, smoked, and cured<br>2. second son of Noah<br>3. somebody who performs in an exaggerated showy style<br>-always hamming it up<br><br>Just when you thought you knew everything about ham, you discover that ham is also:<br>4. a reason to laugh about everyday life, and<br>5. an irresistible collection of humorous essays from a man who was born to entertain us.<br><br>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK TO ORDER NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-g"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "left",
+              "color": "#ffffff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "text-align": "left"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": true,
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.2
+          },
+          "title": "From <i>HAM: Slices of a Life</i>...",
+          "text": "<p><i>At the key change I would always walk down a few feet for the big finish, but with the kid there, I had to climb over him so as not to step on his hands.</i></p><p><i>The next night, little Hormel edged his way down center, rose to his knees, smiled out front, and now I could hear him singing my part!</i></p><p><i>When the key change came, I had no choice but to cut him off, cold turkey, so I stepped forward onto his little hand, not giving it my full weight...well, most of it, and without letting the audience see, I shot him a death stare intended to stunt his growth.</i></p><p><i>It suddenly occurred to me that I was competing with a little kid for my place on the stage and how pathetic that was. What did that say about me? &nbsp;My ego? My ham-dom?</i></p><p><i>That was when I stepped on this other hand.</i></p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK TO ORDER NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "_name": "content5",
+          "_anchor": "content5-h"
+        },
+        {
+          "_inherit": "msg-box3",
+          "_styles": {
+            ".mbr-header .mbr-header__text": {
+              "text-align": "center",
+              "color": "#ffffff"
+            },
+            ".mbr-header .mbr-header__subtext": {
+              "text-align": "center",
+              "color": "#fff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "15px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showCaption": "noCaption",
+            "showText": true,
+            "showButton": true,
+            "paddingTop": "1",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "darkBackground": true,
+            "overlay": true,
+            "overlayColor": "#28324e",
+            "overlayOpacity": 0.2
+          },
+          "title": "<i>HAM</i>: REVIEWS",
+          "text": "<p><i>\"Deliciously self-aware...vital and emotionally rich...sidesplitting with and hysteria.\"</i></p><p>(The Los Angeles Times)</p><p><br></p><p><i>\"A vividly crafted series of essays...a charmingly candid collection.\" </i></p><p>(Publishers Weekly)</p><p><br></p><p><i>“Reading singer-actor Harris’s essays is like having your smartest gay BFF propped up on your pillow sipping cosmos, regaling you with  gossip and his keen wit.”</i></p><p>(People)</p><p><br></p><p><i>“The essays in Ham are both rip-roaringly funny and sentimental, drawing natural (and justified) comparisons to David Sedaris and David Rakoff.” </i></p><p>(Esquire)</p><p><br></p><p><i>\"New Yorker-worthy...he's got the edge.\"</i></p><p>(The New York Times)</p><p><br></p><p><i>\"The show’s title is also the name of Mr. Harris’s just-published book of essays and stories. Funny, touching and cheerfully self-deprecating, the show consists of enthusiastic readings from his book with full-tilt renditions of songs....The darker side of Mr. Harris’s tale concerns his struggle with his homosexuality, his attempted suicide and his eventual self-acceptance. It is an archetypal coming-out story to which he brought an inspirational spin...every move generates excitement. The word “ham” says it all.\" </i></p><p>(Stephen Holden, The New Yorker [on the musical performance based on Ham])</p><p><br></p><p><i>\"[Harris] has the writing chops to tell a good tale...entertaining and occasionally moving tales from the wilds of showbiz.\"</i></p><p>(Kirkus)</p><p><br></p><p><i>“With a wry sense of humor, Harris writes about his life through humorous essays. Touching on everything from parenting to show business, he dishes on the ups and downs of his life through a witty lens.”</i></p><p>(PopSugar)</p><p><br></p><p><i>“Harris is such a marvelously engaging, clever, storyteller that you’ll be enraptured by every word that comes out of his mouth. With a fine eye for detail and actor’s expressiveness, Harris paints wonderfully vivid portraits of various episodes of his life. And then there’s that still glorious, blow-the-roof-off, remarkable singing.”</i></p><p>(Theater Pizazz)</p><p><br></p><p><i>“Sixteen short stories of a triumphant, tragic, and most of all, hilarious life in show business make up Sam Harris' new memoir.” </i></p><p>(Jackie Lyden, NPR)</p><p><br></p><p><i>“This neo-vaudevillian stage persona, Harris has opted to launch Ham the only way he knows how: extravagantly, theatrically and, most of all, big…refreshingly self-effacing observations and playful humor.”</i></p><p>(The Huffington Post)</p><p><br></p><p><i>\"Ham is a fabulous and funny, tasty treat; sweet and savory with just right touch of tang.\"</i></p><p>(Broadway World)&nbsp;</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-info\" href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">CLICK TO ORDER NOW</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "meta": "By John Smith posted July 30, 2015",
+          "_name": "content5",
+          "_anchor": "content5-f"
+        },
+        {
+          "_name": "contacts3",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "13px",
+              "text-align": "left"
+            },
+            "UL": {
+              "color": "#ffffff"
+            },
+            "DIV": {
+              "color": "#efefef"
+            }
+          },
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#28324e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "text1": "<b>INFORMATION &amp; CONTACT</b><br><br>For booking, please contact:<br>Craig Dorfman<br>Frontline Management<br>8265 Sunset Blvd # 209,<br>West Hollywood, CA 90046<br>(213) 221-7945<br><br><b><a href=\"biography.html\" class=\"text-info\">SAM HARRIS BIOGRAPHY</a></b><br><br>",
+          "text2": "<p class=\"mbr-contacts__text\"><b style=\"font-size: 14px;\">MUSIC:</b><br></p><ul class=\"mbr-contacts__list\"><li><a href=\"https://amzn.to/2AlzPja\" target=\"_blank\" class=\"text-info\" style=\"font-style: italic; font-weight: bold;\">Sam Harris&nbsp;</a>(Expanded Edition) [Motown]</li><li><a href=\"https://amzn.to/2At9yPR\" target=\"_blank\" class=\"text-info\" style=\"font-style: italic; font-weight: bold;\">Sam-I-Am</a> (Expanded Edition) [Motown]</li><li><i><a href=\"https://amzn.to/3ch6OT7\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">Standard Time/Different Stages</a> </i>(Double)</li><li><a href=\"https://amzn.to/2Mbdbg4\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold; font-style: italic;\">Revival </a>&nbsp;(Bridge Over Troubled Water)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/2yQKbas\" target=\"_blank\" class=\"text-info\">Always</a> </i>(A Song For You, The Rose, If)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/3eAL8mw\" target=\"_blank\" class=\"text-info\">Free</a> </i>(I Can't Make You Love Me, Imagine)</li><li><i><a href=\"https://amzn.to/2XhBi3d\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold;\">The Motown Lowdown</a> </i>(New Acoustic)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/3dmZUgo\" target=\"_blank\" class=\"text-info\">On This Night</a> </i>(O Holy Night, First Noel)</li><li><a href=\"https://amzn.to/2XJlghs\" target=\"_blank\" class=\"text-info\" style=\"font-weight: bold; font-style: italic;\">The Best of Christmas</a> Live! (Deluxe)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/36Mx1YI\" target=\"_blank\" class=\"text-info\">Suitcase of Memories</a> </i>(Fan Collection)</li><li><b><i><br></i></b></li><li><b>BOOKS:</b></li><li><i style=\"font-weight: bold;\"><a href=\"http://www.amazon.com/exec/obidos/ASIN/1476733449/thelimelight\" target=\"_blank\" class=\"text-info\">HAM: Slices Of A Life</a>&nbsp;</i>(Memoir)</li><li><i style=\"font-weight: bold;\"><a href=\"https://amzn.to/2TU9788\" target=\"_blank\" class=\"text-info\">The Substance Of All Things</a>&nbsp;</i>(Fiction)</li><li><b><i><br></i></b></li></ul><p>The email contact form is for BUSINESS ONLY.<br>Messages will NOT be forwarded to Sam Harris.</p><p><b>Talk to Sam at: &nbsp;<a href=\"http://facebook.com/SamFans\" target=\"_blank\" class=\"text-info\">facebook.com/SamFans</a></b></p>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "samharrisblog.com@gmail.com",
+            "alerts": {
+              "success": "Your message has been sent to SamHarris.com\n\nIf your message was booking or business related, or other management related issues and questions, someone will get back to you ASAP.\n\nIf your message was for Sam Harris, please note that Sam does not get messages via this form, nor will they will be forwarded, as noted.\n\nHowever, Sam would LOVE to hear from you, so send him a message or post on:\nfacebook.com/SamFans\n\nThank you!\nWebmaster\nSamHarris.com "
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "BUSINESS ONLY. Messages will NOT be forwarded to Sam Harris.  Talk to Sam at:  facebook.com/SamFans"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">SEND EMAIL</a>",
+          "_anchor": "contacts3-5"
         }
       ]
     }
